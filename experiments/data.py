@@ -23,7 +23,6 @@ def auto_mpg(scale_data=True, return_df=False, data_home=None):
         .rename(columns={"model": "year"})
         .astype({"cylinders": int, "year": int})
     )
-    df["origin123"] = df["origin"]
     df["origin"] = df["origin"].cat.rename_categories(
         {"1": "USA", "2": "Europe", "3": "Japan"}
     )
