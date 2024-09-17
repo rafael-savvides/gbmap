@@ -6,8 +6,7 @@ Gradient Boosting Mapping is and nonlinear dimensionality reduction and feature 
 ## Data
 Most of the datasets are from [OpenML](https://www.openml.org/) and will be downloaded as needed, but GeckoQ has to be downloaded separately.
 
-The GeckoQ data can be downloaded from [Fairdata repository](https://doi.org/10.23729/022475cc-e527-41a9-bbc0-0113923cf04c)
-Head to the Fairdata repository (link above) and download the `Dataframe.csv` and place it to `experiments/data`.
+The GeckoQ data can be downloaded from [Fairdata repository](https://doi.org/10.23729/022475cc-e527-41a9-bbc0-0113923cf04c), you'll only have to download the `Dataframe.csv` and place it to `experiments/data`.
 
 
 ## Instructions for installing and running the experiments
